@@ -34,7 +34,31 @@ import math
 a=int(input('Enter a number='))
 print(math.factorial(a))
 
+#Q8.
+import math
+a=int(input("Enter a="))
+b=int(input("Enter b="))
+print(math.gcd(a,b))
+
 #Q9.
 import os
 print("current working dirfectory -",os.getcwd())
 print("environment -",os.environ)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
