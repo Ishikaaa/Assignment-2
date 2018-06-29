@@ -40,38 +40,6 @@ M.mission_display()
 
 #Q4.
 class shape():
-    def show2(self):
-        self.l = int(input("Enter length="))
-        self.b = int(input("Enter breadth="))
-class rectangle(shape):
-    def area(self):
-        self.show2()
-        self.A=self.l*self.b
-    def show1(self):
-        print("Area of rectangle -",self.A)
-class square(shape):
-    c=0
-    def area(self):
-        self.show2()
-        if(self.l==self.b):
-            self.A=self.l*self.l
-            self.c=1
-        else:
-            print("Enter same length and breadthh")
-    def show1(self):
-        if(self.c==1):
-            print("Area of square -",self.A)
-        else:
-            pass
-R=rectangle()
-S=square()
-R.area()
-R.show1()
-S.area()
-S.show1()
-
-#Q4..
-class shape():
     l = int(input("Enter length="))
     b = int(input("Enter breadth="))
     def show1(self):
@@ -101,15 +69,3 @@ else:
     S=square()
     S.show3()
     S.show4()
-
-
-
-
-
-
-
-
-
-
-
-
