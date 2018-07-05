@@ -1,21 +1,21 @@
-# #Q1.
-# from tkinter import *
-# a=Tk()
-# a.title("Ishika Garg")
-# l=Label(a,text="Helo World").pack()
-# b=Button(a,text="Exit",command=quit).pack()
-# a.mainloop()
-#
-# #Q2.
-# from tkinter import *
-# a=Tk()
-# a.title("Ishika Garg")
-# def show():
-#     print("Hello World")
-#     l=Label(a,text="Hello World").pack()
-# b1=Button(a,text="Click",command=show).pack()
-# b2=Button(a,text="Stop",command=a.destroy).pack()
-# a.mainloop()
+#Q1.
+from tkinter import *
+a=Tk()
+a.title("Ishika Garg")
+l=Label(a,text="Helo World").pack()
+b=Button(a,text="Exit",command=quit).pack()
+a.mainloop()
+
+#Q2.
+from tkinter import *
+a=Tk()
+a.title("Ishika Garg")
+def show():
+    print("Hello World")
+    l=Label(a,text="Hello World").pack()
+b1=Button(a,text="Click",command=show).pack()
+b2=Button(a,text="Stop",command=a.destroy).pack()
+a.mainloop()
 
 #Q3.
 from tkinter import *
